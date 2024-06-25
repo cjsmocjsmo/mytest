@@ -14,7 +14,7 @@ fn main() -> Result<(), Error> {
 
     // Load the video file and play it
     mpv.run_command(MpvCommand::LoadFile {
-        file: "/home/charliepi/Videos/testvid.mp4".into(),
+        file: "/home/pimedia/PINAS/bazmnt/MTV/Movies/Cartoons/Up (2009).mp4".into(),
         option: PlaylistAddOptions::Replace,
     })?;
 
