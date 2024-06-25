@@ -7,6 +7,7 @@ fn main() -> Result<(), Error> {
     let socket_path = "/tmp/mpvsocket"; // Corrected socket path
 
     // Connect to mpv instance
+    println!("Connecting to mpv instance");
     let mpv = Mpv::connect(socket_path)?;
     println!("Connected to mpv instance");
 
