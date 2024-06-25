@@ -8,6 +8,7 @@ fn main() -> Result<(), Error> {
 
     // Connect to mpv instance
     let mpv = Mpv::connect(socket_path)?;
+    println!("Connected to mpv instance");
 
 
     mpv.set_property("fullscreen", true)?;
